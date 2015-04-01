@@ -67,7 +67,7 @@ class NetSoul:
 def main():
     print "Creating instance..."
     # line to modify by the user
-    client = NetSoul("163.5.42.2", 4242, "USERNAME", "PASSWORD_SOCKS")
+    client = NetSoul("163.5.42.2", 4242, "moghra_a", "g2uuXo)Y")
     while 1:
         print "Connecting..."
         client.connect()
