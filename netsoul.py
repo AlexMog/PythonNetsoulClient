@@ -44,19 +44,8 @@ class NetSoulClient:
 
 def main():
     # line to modify by the user
-<<<<<<< HEAD
-    client = NetSoul("163.5.42.2", 4242, "moghra_a", "g2uuXo)Y")
-    while 1:
-        print "Connecting..."
-        client.connect()
-        print "Connected!"
-        client.handle()
-        print "Connexion lost... Reconnecting in 5 seconds..."
-        time.sleep(5)
-=======
     client = NetSoulClient("163.5.42.2", 4242, "CLIENT_LOGIN", "CLIENT_PASS", "LOCATION")
     client.start()
->>>>>>> release/LibVersion0.0.1
 
 if __name__ == '__main__':
     main()
