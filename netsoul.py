@@ -44,7 +44,7 @@ class NetSoulClient:
 
 def main():
     # line to modify by the user
-    client = NetSoulClient("163.5.42.2", 4242, "CLIENT_LOGIN", "CLIENT_PASS", "LOCATION")
+    client = NetSoulClient("ns-server.epita.fr", 4242, "USERNAME", "PASSWORD", "LOCATION")
     client.start()
 
 if __name__ == '__main__':
